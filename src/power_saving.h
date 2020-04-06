@@ -2,7 +2,7 @@
 #define POWER_SAVING
 
 #define uS_TO_MIN 60000000 // converte uS pra minutos
-#define uS_TO_SEC 1000000 // converte uS pra minutos
+#define uS_TO_SEC 1000000 // converte uS pra segundos
 #define TIME_TO_SLEEP 30   // dorme por 30 minutos
 
 #include "esp_sleep.h"

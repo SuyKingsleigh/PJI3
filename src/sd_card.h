@@ -6,7 +6,6 @@
 #define PROJ_SD_CARD_H
 
 
-#include "Message.h"
 #include <SPI.h>
 #include <SD.h>
 
@@ -25,7 +24,7 @@ bool initializeSD(uint8_t sd);
  * @param msg mensagem que fora enviada
  * @return true se escreveu 
  */
-bool write_on_SD(Message &msg);
+bool write_on_SD(const char * msg);
 
 /**
  * @return true se o tamanho do arquivo eh maior que o limite
@@ -44,6 +43,6 @@ void clean_file();
  * @param SD_CS : int porta do cartao SD
  * @return se conseguiu escrever ou nao 
  */
-bool writeSD(Message &msg, int SD_CS);
+bool writeSD(const char * msg, int SD_CS);
 
 #endif //PROJ_SD_CARD_H

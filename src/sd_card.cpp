@@ -10,10 +10,10 @@ bool initializeSD(uint8_t sd){
    return SD.begin(sd);
 }
 
-bool write_on_SD(Message &msg) {
+bool write_on_SD(const char * msg) {
     File file = SD.open(DB, FILE_WRITE);
     if(file){
-        file.println(msg.json().c_str()); // converte a msg pra const char *
+        file.println(msg); 
         file.close();
         return true;
     } return false; 
@@ -29,7 +29,7 @@ void clean_file(){
 }
 
 
-bool writeSD(Message &msg, int SD_CS) {
+bool writeSD(const char * msg,  int SD_CS) {
     if(initializeSD(SD_CS)){
         if(!check_size()) return write_on_SD(msg);
         else{
