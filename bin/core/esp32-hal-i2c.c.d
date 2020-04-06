@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/core/esp32-hal-i2c.c.o: \
+/home/suy/Desktop/pj3/projeto/bin/core/esp32-hal-i2c.c.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal-i2c.c \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal-i2c.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdint.h \

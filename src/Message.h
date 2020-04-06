@@ -1,9 +1,8 @@
 #ifndef APP_ESP32_Message
 #define APP_ESP32_Message 
 
-
-// #include <string>
 #include <sstream>
+
 
 class Message{
     private:
@@ -17,7 +16,7 @@ class Message{
         Message(int temp, struct tm *date);
         /**
          * Converte a mensagem para o estilo JSON
-         * @return {"date" : "hora:min:seg dia:mes:ano", "temp" : temp}
+         * @return {"date" : "hora:min:seg dia/mes/ano", "temp" : temp}
          */
         std::string json();
 

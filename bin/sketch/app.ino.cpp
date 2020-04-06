@@ -1,77 +1,28 @@
 #include <Arduino.h>
-#line 1 "/home/suy/Desktop/pj3/app-esp32/app.ino"
+#line 1 "/home/suy/Desktop/pj3/projeto/app.ino"
 #include "src/Message.h"
 #include "src/sd_card.h"
-
+#include "src/power_saving.h"
 
 #define SENSOR_TEMP_PIN 34 //analog adc1_ch6
 #define SD_CS 5 // pino do cartao SD
 
 #define SERIAL_BR 9600 // baudrate
-#define uS_TO_MIN 60000000 // converte uS pra minutos
-#define TIME_TO_SLEEP 30   // dorme por 30 minutos
 
 #define MAX_ATEMPTS 5 // maximo de tentativas pra enviar uam mensagem pelo LORA
 #define TOUT 500 // tempo de timeout ms
 
-// funcao apenas para dormir
-#line 16 "/home/suy/Desktop/pj3/app-esp32/app.ino"
-void snooze();
-#line 27 "/home/suy/Desktop/pj3/app-esp32/app.ino"
-void writeSD(Message &msg);
-#line 40 "/home/suy/Desktop/pj3/app-esp32/app.ino"
-void sendMsgLora(String &msg);
-#line 49 "/home/suy/Desktop/pj3/app-esp32/app.ino"
-void sendMsgBLE();
-#line 57 "/home/suy/Desktop/pj3/app-esp32/app.ino"
+
+#line 14 "/home/suy/Desktop/pj3/projeto/app.ino"
 void setup();
-#line 62 "/home/suy/Desktop/pj3/app-esp32/app.ino"
+#line 21 "/home/suy/Desktop/pj3/projeto/app.ino"
 void loop();
-#line 16 "/home/suy/Desktop/pj3/app-esp32/app.ino"
-void snooze(){
-    //  http://esp-idf.readthedocs.io/en/latest/api-reference/system/deep_sleep.html
-    esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_MIN);
-    // definir os perifericos a ficarem ligados
-    // Devera dormir por 30 minutos, coletar dados, so acordara caso de o timer 
-    // ou tenha um dispostivo com BLE por perto
-    //esp_deep_sleep_pd_config(ESP_PD_DOMAIN_RTC_PERIPH, ESP_PD_OPTION_OFF);
-    esp_deep_sleep_start();
-}
-
-// escreve a mensagem que foi enviada no cartao SD
-void writeSD(Message &msg) {
-    // copia msgs pro cartao SD 
-    // caso o tamanho do arquivo exceda 2gb ele apagara os dados do cartao 
-    if(initializeSD(SD_CS)){
-        if(!check_size()) write_on_SD(msg);
-        else{
-            clean_file();
-            write_on_SD(msg);
-        }
-    }
-}
-
-// envia uma mensagem pelo LORA
-void sendMsgLora(String &msg) {
-    // enviar mensagem 
-    // copiar pra SD 
-    // esperar ack 
-    // se n receber resposta ate o tout, envia novamente
-    // tenta N veze ate desistir
-}
-
-// envia uma mensagem pelo BLE
-void sendMsgBLE() {
-    // caso encontre um dispotivo por perto
-    // envia uma copia do banco de dados pro dispositivo 
-    // devera enviar do mais recente ao mais antigo. 
-}
-
-
-// devido ao snooze, o codigo inteiro vai rolar no setup
+#line 14 "/home/suy/Desktop/pj3/projeto/app.ino"
 void setup(){
-    Serial.begin(SERIAL_BR);
-    delay(1000);
+    hibernate();
+    time_t now = time(0);
+    Message msg = Message(13, localtime(&now));
+    writeSD(msg, SD_CS);
 }
 
 void loop(){}

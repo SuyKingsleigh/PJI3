@@ -22,5 +22,5 @@ std::string Message::json(){
 std::string Message::date_to_string(){
         return to_string(this->date->tm_hour)+ ":" + to_string(this->date->tm_min) + ":" +
                to_string(this->date->tm_sec) + " " + to_string(this->date->tm_mday) + "/" +
-               to_string(this->date->tm_mon) + "/" + to_string(this->date->tm_year);
+               to_string(this->date->tm_mon) + "/" + to_string(1900 + this->date->tm_year);
 }

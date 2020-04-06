@@ -27,3 +27,14 @@ bool check_size(){
 void clean_file(){
     SD.remove(DB);
 }
+
+
+bool writeSD(Message &msg, int SD_CS) {
+    if(initializeSD(SD_CS)){
+        if(!check_size()) return write_on_SD(msg);
+        else{
+            clean_file();
+            return write_on_SD(msg);
+        }
+    }
+}

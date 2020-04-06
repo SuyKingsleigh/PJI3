@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/libraries/SD/SD.cpp.o: \
+/home/suy/Desktop/pj3/projeto/bin/libraries/SD/SD.cpp.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/SD.cpp \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/vfs_api.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/FS.h \
@@ -110,7 +110,7 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/IPAddress.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/HardwareSerial.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Esp.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/FSImpl.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/stat.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/dirent.h \

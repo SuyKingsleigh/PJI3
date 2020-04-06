@@ -7,35 +7,45 @@
   {
     "Sourcefile": null,
     "Include": "",
-    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32"
+    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32"
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/app.ino.cpp",
     "Include": "SPI.h",
     "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src"
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/app.ino.cpp",
     "Include": "SD.h",
     "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src"
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/app.ino.cpp",
     "Include": "FS.h",
     "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src"
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/app.ino.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/src/Message.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/teste.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/src/sd_card.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/power_saving.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/sd_card.cpp",
     "Include": "",
     "Includepath": null
   },

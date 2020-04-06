@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "power_saving.h": "c",
+        "esp_sleep.h": "c",
+        "esp_wifi.h": "c",
+        "esp_blufi_api.h": "c",
+        "esp_bt.h": "c",
+        "esp_bt_device.h": "c",
+        "bledevice.h": "c",
+        "esp_bt_main.h": "c"
+    }
+}

@@ -38,4 +38,12 @@ bool check_size();
 */
 void clean_file();
 
+/**
+ * Funcao que deve de fato ser usada para escrever num cartao SD 
+ * @param msg : Message 
+ * @param SD_CS : int porta do cartao SD
+ * @return se conseguiu escrever ou nao 
+ */
+bool writeSD(Message &msg, int SD_CS);
+
 #endif //PROJ_SD_CARD_H

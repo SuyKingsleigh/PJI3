@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/core/wiring_shift.c.o: \
+/home/suy/Desktop/pj3/projeto/bin/core/wiring_shift.c.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/wiring_shift.c \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdint.h \
@@ -111,4 +111,4 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp8266-compat.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/stdlib_noniso.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/binary.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h

@@ -1,12 +1,12 @@
-/home/suy/Desktop/pj3/app-esp32/bin/sketch/src/sd_card.cpp.o: \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/src/sd_card.cpp \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/src/sd_card.h \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/src/Message.h \
+/home/suy/Desktop/pj3/projeto/bin/sketch/src/sd_card.cpp.o: \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/sd_card.cpp \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/sd_card.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src/SPI.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdlib.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/machine/stdlib.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/alloca.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal-spi.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/SD.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/FS.h \

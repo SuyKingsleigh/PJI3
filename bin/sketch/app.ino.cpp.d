@@ -1,5 +1,5 @@
-/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp.o: \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp \
+/home/suy/Desktop/pj3/projeto/bin/sketch/app.ino.cpp.o: \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/app.ino.cpp \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdint.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/machine/_default_types.h \
@@ -126,12 +126,51 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/IPAddress.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/HardwareSerial.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Esp.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/src/Message.h \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/src/sd_card.h \
- /home/suy/Desktop/pj3/app-esp32/bin/sketch/src/Message.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/sd_card.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src/SPI.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal-spi.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/SD.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/FS.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_defines.h
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_defines.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/power_saving.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi_types.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_private/esp_wifi_types_private.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/rom/queue.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_interface.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp_event/esp_event.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/freertos/freertos/queue.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp_event/esp_event_base.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_event_legacy.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/tcpip_adapter/tcpip_adapter.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi_types.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/ip_addr.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/opt.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwipopts.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/time.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/fcntl.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/_default_fcntl.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/stat.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/vfs/sys/ioctl.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/select.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_task.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/freertos/freertos/FreeRTOSConfig.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/netif/dhcp_state.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/debug.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/arch.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/arch/cc.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/arch/sys_arch.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/arch/vfs_lwip.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/def.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/ip4_addr.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/ip6_addr.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/lwip/def.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/lwip/dhcpserver/dhcpserver.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_private/esp_wifi_private.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi_crypto_types.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi_os_adapter.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/bt/esp_bt.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/bt/esp_bt_main.h

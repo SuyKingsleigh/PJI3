@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/core/stdlib_noniso.c.o: \
+/home/suy/Desktop/pj3/projeto/bin/core/stdlib_noniso.c.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/stdlib_noniso.c \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdlib.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/machine/ieeefp.h \

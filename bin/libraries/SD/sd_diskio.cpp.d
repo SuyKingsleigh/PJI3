@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/libraries/SD/sd_diskio.cpp.o: \
+/home/suy/Desktop/pj3/projeto/bin/libraries/SD/sd_diskio.cpp.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_diskio.cpp \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_diskio.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Arduino.h \
@@ -127,7 +127,7 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/IPAddress.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/HardwareSerial.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Esp.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src/SPI.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal-spi.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_defines.h \

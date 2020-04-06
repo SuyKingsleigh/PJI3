@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/core/HardwareSerial.cpp.o: \
+/home/suy/Desktop/pj3/projeto/bin/core/HardwareSerial.cpp.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/HardwareSerial.cpp \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdlib.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/machine/ieeefp.h \
@@ -26,7 +26,7 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/inttypes.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/sys/_intsup.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdint.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/HardwareSerial.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Stream.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Print.h \

@@ -1,4 +1,4 @@
-/home/suy/Desktop/pj3/app-esp32/bin/core/Esp.cpp.o: \
+/home/suy/Desktop/pj3/projeto/bin/core/Esp.cpp.o: \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Esp.cpp \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/newlib/stdint.h \
@@ -127,7 +127,7 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/HardwareSerial.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Esp.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/Arduino.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32/pins_arduino.h \
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/rom/spi_flash.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/soc/soc/spi_reg.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/spi_flash/esp_spi_flash.h \
