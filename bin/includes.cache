@@ -1,0 +1,72 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/pico32"
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Include": "SD.h",
+    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src"
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Include": "FS.h",
+    "Includepath": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src"
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/app.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/src/Message.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/app-esp32/bin/sketch/src/sd_card.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/SD.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_diskio.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/sd_diskio_crc.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/FS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/FS/src/vfs_api.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
