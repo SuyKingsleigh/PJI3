@@ -10,6 +10,7 @@
 #include <SD.h>
 
 #define DB "/db.txt"
+#define BUFFER "/buffer.txt"
 #define MAX_FILE_SIZE 2147483648 //2GB 
 
 /**
@@ -44,5 +45,11 @@ void clean_file();
  * @return se conseguiu escrever ou nao 
  */
 bool writeSD(const char * msg, int SD_CS);
+
+
+void write_buffer(int val, uint8_t sd);
+int read_buffer(uint8_t sd);
+
+
 
 #endif //PROJ_SD_CARD_H

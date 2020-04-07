@@ -38,3 +38,22 @@ bool writeSD(const char * msg,  int SD_CS) {
         }
     }
 }
+
+
+void write_buffer(int val, uint8_t sd){
+    if(initializeSD(sd)){
+        File file = SD.open(BUFFER, FILE_WRITE);
+        file.println(val);
+        file.close();
+    }
+}
+
+int read_buffer(uint8_t sd){
+    int b = -1; 
+    if(initializeSD(sd)){
+        File file = SD.open(BUFFER);
+        b = file.read();
+        file.close();
+    }
+    return b;
+}
