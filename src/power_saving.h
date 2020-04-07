@@ -33,7 +33,7 @@ void _hibernate(int duracao);
  * @param duracao duracao EM segundos da hibernacao
  * @param msg Mensagem a ser enviada 
 */
-bool hibernate_and_exec_func(bool (*f)(const char *), const char * msg, int duracao);
+bool hibernate_and_exec_func(bool (*f)(const char *, int), const char * msg, int duracao, int max_attempts);
 
 
 

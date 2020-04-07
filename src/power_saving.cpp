@@ -15,7 +15,7 @@ void hibernate(){
     _hibernate(uS_TO_MIN * TIME_TO_SLEEP);
 }
 
-bool hibernate_and_exec_func(bool (*f)(const char *), const char * msg, int duracao){
+bool hibernate_and_exec_func(bool (*f)(const char *, int), const char * msg, int duracao, int max_attempts){
     _hibernate(duracao * uS_TO_SEC); // dorme por n segundos
-    return f(msg);
+    return f(msg, max_attempts);
 }
