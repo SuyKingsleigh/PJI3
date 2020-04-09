@@ -30,12 +30,17 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/teste.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.cpp",
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/bluetooth.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/home/suy/Desktop/pj3/projeto/bin/sketch/src/lora.cpp",
     "Include": "",
     "Includepath": null
   },

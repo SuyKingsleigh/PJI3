@@ -2,15 +2,13 @@
 #define POWER_SAVING
 
 #define uS_TO_MIN 60000000 // converte uS pra minutos
-#define uS_TO_SEC 1000000 // converte uS pra minutos
+#define uS_TO_SEC 1000000 // converte uS pra segundos
 #define TIME_TO_SLEEP 30   // dorme por 30 minutos
-
 
 #include "esp_sleep.h"
 #include "esp_wifi.h" // wifi_disable
 #include "esp_bt.h" // esp_bt_controller_disable
 #include "esp_bt_main.h" // esp_bluedroid_disable
-
 
 
 /** 
@@ -33,8 +31,9 @@ void _hibernate(int duracao);
  * while(hibernate_and_exec_func(send_BLE), N);
  * @param (*f) funcao a ser executada 
  * @param duracao duracao EM segundos da hibernacao
+ * @param msg Mensagem a ser enviada 
 */
-bool hibernate_and_exec_func(bool (*f)(const char *), const char * msg, int duracao);
+bool hibernate_and_exec_func(bool (*f)(const char *, int), const char * msg, int duracao, int max_attempts);
 
 
 

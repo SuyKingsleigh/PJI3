@@ -17,18 +17,22 @@ int get_temp(){
     return 12;
 }
 
+// Message *msg = nullptr;
 void setup(){
     // mede a temperatura e escreve no SD
     time_t t = time(0);
-    const char * msg = Message(get_temp(), localtime(&t)).json().c_str();
-    writeSD(msg, SD_CS);
+    Message * msg = new Message(get_temp(), localtime(&t));
+    writeSD(msg->json().c_str(), SD_CS);
 
     // Se falhar ao enviar a mensagem pelo LORA 
     // tentara enviar pelo bluetooth
     // para isso ele hibernara por 30 segundos 
     // e entao tentara enviar pelo bluetooth N vezes
-    if(!send_msg_lora(msg, MAX_ATTEMPTS_LORA, TOUT))
-        while(!hibernate_and_exec_func(&send_msg_bluetooth, msg, 30, MAX_ATTEMPTS_BLE)) {;}
+    if(!send_msg_lora(msg->json().c_str(), MAX_ATTEMPTS_LORA, TOUT))
+        while(!hibernate_and_exec_func(&send_msg_bluetooth, msg->json().c_str(), 30, MAX_ATTEMPTS_BLE)) {;}
+
+    // libera memoria (n sei se eh necessario tho)
+    delete msg;
 
     // depois de enviar pelo lora ou bluetooth, hiberna por meia hora 
     // hibernar depois de tentar enviar pelo bluetooth eh necessario para poupar bateria

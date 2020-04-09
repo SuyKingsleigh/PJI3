@@ -129,7 +129,6 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/variants/esp32/pins_arduino.h \
  /home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.h \
  /home/suy/Desktop/pj3/projeto/bin/sketch/src/sd_card.h \
- /home/suy/Desktop/pj3/projeto/bin/sketch/src/Message.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SPI/src/SPI.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/cores/esp32/esp32-hal-spi.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/libraries/SD/src/SD.h \
@@ -173,4 +172,6 @@
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi_crypto_types.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/esp32/esp_wifi_os_adapter.h \
  /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/bt/esp_bt.h \
- /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/bt/esp_bt_main.h
+ /home/suy/.arduino15/packages/esp32/hardware/esp32/1.0.4/tools/sdk/include/bt/esp_bt_main.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/lora.h \
+ /home/suy/Desktop/pj3/projeto/bin/sketch/src/bluetooth.h
