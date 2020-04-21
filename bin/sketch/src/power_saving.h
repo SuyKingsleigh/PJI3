@@ -19,22 +19,8 @@
  *  Fazendo assim que o dispositivo durma por pelo menos meia hora
  */
 void hibernate();
-void _hibernate(int duracao);
 
-
-/** 
- * Hiberna e quando acorda executa uma funcao
- * Deve ser usado quando falha ao enviar pelo LORA 
- * ficara dormindo por N segundos e entao tentara enviar pelo BLE 
- * consiga enviar pelo BLE retorna True e entao devera ser chamado o Hibernate()
- * a ideia e manter isso dentro de um while
- * while(hibernate_and_exec_func(send_BLE), N);
- * @param (*f) funcao a ser executada 
- * @param duracao duracao EM segundos da hibernacao
- * @param msg Mensagem a ser enviada 
-*/
-bool hibernate_and_exec_func(bool (*f)(const char *, int), const char * msg, int duracao, int max_attempts);
-
+void hibernate(int duracao);
 
 
 #endif //POWER_SAVING

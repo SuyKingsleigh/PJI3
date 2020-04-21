@@ -57,3 +57,7 @@ int read_buffer(uint8_t sd){
     }
     return b;
 }
+
+void delete_buffer(uint8_t sd){
+    if(initializeSD(sd)) SD.remove(BUFFER);
+}

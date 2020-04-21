@@ -32,9 +32,8 @@ bool write_on_SD(const char * msg);
  */
 bool check_size();
 
-
 /** 
- * Deleta todos os dados de um arquivo 
+ * Deleta um arquivo
 */
 void clean_file();
 
@@ -45,11 +44,6 @@ void clean_file();
  * @return se conseguiu escrever ou nao 
  */
 bool writeSD(const char * msg, int SD_CS);
-
-
-void write_buffer(int val, uint8_t sd);
-int read_buffer(uint8_t sd);
-
 
 
 #endif //PROJ_SD_CARD_H

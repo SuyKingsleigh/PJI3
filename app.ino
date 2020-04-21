@@ -17,28 +17,31 @@ int get_temp(){
     return 12;
 }
 
-// Message *msg = nullptr;
+/**
+ * Toda vez que o hibernate é invocado, ele desligará tudo 
+ * Exceto o RTC 
+ * Então quando acorda, ele volta pra cá 
+ * Ou seja, se falhar ao enviar pelo Lora, ele vai medir a temperatura novamente 
+ * Mas isso tem um custo de energia menor do que mantê-lo ativo durante X minutos
+*/
 void setup(){
     // mede a temperatura e escreve no SD
     time_t t = time(0);
     Message * msg = new Message(get_temp(), localtime(&t));
     writeSD(msg->json().c_str(), SD_CS);
 
-    // Se falhar ao enviar a mensagem pelo LORA 
-    // tentara enviar pelo bluetooth
-    // para isso ele hibernara por 30 segundos 
-    // e entao tentara enviar pelo bluetooth N vezes
-    if(!send_msg_lora(msg->json().c_str(), MAX_ATTEMPTS_LORA, TOUT))
-        while(!hibernate_and_exec_func(&send_msg_bluetooth, msg->json().c_str(), 30, MAX_ATTEMPTS_BLE)) {;}
+    // tenta enviar a mensagem pelo LORA N vezes 
+    // caso consiga enviar, dormira por meia hora
+    if(!send_msg_lora(msg->json().c_str(), MAX_ATTEMPTS_LORA, TOUT)){
+        // caso falhe ao enviar pelo Lora 
+        // tentara enviar pelo BLE M vezes 
+        // se falhar pelo BLE, dormira por 30s e tentara novamente 
+        if(!send_msg_bluetooth(msg->json().c_str(), MAX_ATTEMPTS_BLE))
+            hibernate(uS_TO_MIN * 0.5);
+    }
 
-    // libera memoria (n sei se eh necessario tho)
-    delete msg;
-
-    // depois de enviar pelo lora ou bluetooth, hiberna por meia hora 
-    // hibernar depois de tentar enviar pelo bluetooth eh necessario para poupar bateria
-    // uma vez que o tentar enviar pelo bluetooth consumira muito mais do que pelo LORA
     hibernate();
 }   
 
-// nunca chega no loop
+
 void loop(){}
